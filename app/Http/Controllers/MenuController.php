@@ -6,16 +6,9 @@ use Illuminate\Http\Request;
 
 class MenuController extends Controller
 {
-
-    public function home()
+    public function main()
     {
-        return view('menu.home');
-    }
-
-
-    public function about()
-    {
-        return view('menu.about');
+        return view('main');
     }
     //Last Line
 }

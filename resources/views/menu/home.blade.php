@@ -1,81 +1,32 @@
-@extends('main')
-
-@section('title_content','Home')
-
-@section('content')
-    <div class="row">
-        <div class="col-xl-12">
-            <div class="card crm-widget">
-                <div class="card-body p-0">
-                    <div class="row row-cols-xxl-5 row-cols-md-3 row-cols-1 g-0">
-                        <div class="col">
-                            <div class="py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Campaign Sent <i class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-space-ship-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0"><span class="counter-value" data-target="197">0</span></h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                        <div class="col">
-                            <div class="mt-3 mt-md-0 py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Annual Profit <i class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-exchange-dollar-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0">$<span class="counter-value" data-target="489.4">0</span>k</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                        <div class="col">
-                            <div class="mt-3 mt-md-0 py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Lead Coversation <i class="ri-arrow-down-circle-line text-danger fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-pulse-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0"><span class="counter-value" data-target="32.89">0</span>%</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                        <div class="col">
-                            <div class="mt-3 mt-lg-0 py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Daily Average Income <i class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-trophy-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0">$<span class="counter-value" data-target="1596.5">0</span></h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                        <div class="col">
-                            <div class="mt-3 mt-lg-0 py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Annual Deals <i class="ri-arrow-down-circle-line text-danger fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-service-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0"><span class="counter-value" data-target="2659">0</span></h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                    </div><!-- end row -->
-                </div><!-- end card body -->
-            </div><!-- end card -->
-        </div><!-- end col -->
-    </div><!-- end row -->
-@endsection
+<div class="container">
+    <div class="row align-items-center gy-4">
+        <div class="col-lg-6 order-2 order-lg-1">
+            <div class="text-muted">
+                <h3 class="text-success"><strong>Hello I'm</strong></h3>
+                <h1 class="mb-2">Daniar Nur Amin</h1>
+                <h4 class="mb-3">Software Developer</h4>
+                {{-- <p class="mb-4 ff-secondary">👋 Hi, My full name Daniar Nur Amin, you can call me "Daniar". I'm Software Developer who specialized in Fullstack Developer from Indonesia. I have experience in developing applications, especially Web Developers</p> --}}
+                <a class="nav-link ff-secondary" style="cursor: pointer">
+                    <i class="mdi mdi-email mdi-24px text-success"></i><span> daniarnuramin1@gmail.com</span>
+                </a>
+                <a class="nav-link ff-secondary mb-3" style="cursor: pointer">
+                    <i class="mdi mdi-phone mdi-24px text-success"></i><span> 0812-9309-8150</span>
+                </a>
+                <div class="row">
+                    <div class="hstack gap-2 ">
+                        <a href="https://www.linkedin.com/in/daniar-nur-amin/" class="btn btn-soft-success btn-icon"><i class="ri-linkedin-box-fill ri-xl text-primary"></i></a>
+                        <a href="https://github.com/daniar-17" target="_blank" class="btn btn-soft-success btn-icon"><i class="ri-github-fill ri-xl text-primary"></i></a>
+                        <a href="https://www.instagram.com/daniar_nur_amin/" class="btn btn-soft-success btn-icon"><i class="ri-instagram-line ri-xl text-primary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end col -->
+        <div class="col-lg-6 col-sm-7 col-10 ms-auto order-1 order-lg-2 text-center">
+            <div>
+                <img class="img-thumbnail rounded-circle avatar-xl" src="{{asset('assets/images/me.jpg')}}" style="width: 50%; height:auto;">
+            </div>
+        </div>
+    </div>
+    <!-- end row -->
+</div>

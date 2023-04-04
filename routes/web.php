@@ -14,5 +14,4 @@ use App\Http\Controllers\MenuController;
 |
 */
 
-Route::get('/', [MenuController::class, 'home'])->name('home');
-Route::get('/about', [MenuController::class, 'about'])->name('about');
+Route::get('/', [MenuController::class, 'main'])->name('main');
