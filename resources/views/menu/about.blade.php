@@ -1,81 +1,50 @@
-@extends('main')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="text-center mb-5">
+                <h1 class="mb-3 ff-secondary fw-semibold lh-base">About Me</h1>
+            </div>
+        </div>
+        <!-- end col -->
+    </div>
+    <!-- end row -->
 
-@section('title_content','About')
+    <div class="row align-items-center">
+        <div class="col-lg-6 col-sm-7 col-10 mx-auto">
+            <div>
+                <img src="{{asset('assets/images/ab-img.png')}}" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="text-muted ps-lg-5">
+                <h4 class="mb-3">👋 Haii,</h4>
+                <p class="mb-3">My full name Daniar Nur Amin, you can call me "Daniar". I'm Software Developer who specialized in Fullstack Developer from Indonesia. I have experience in developing applications, especially Web Developers.</p>
 
-@section('content')
-    <div class="row">
-        <div class="col-xl-12">
-            <div class="card crm-widget">
-                <div class="card-body p-0">
-                    <div class="row row-cols-xxl-5 row-cols-md-3 row-cols-1 g-0">
-                        <div class="col">
-                            <div class="py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Campaign Sent <i class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-space-ship-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0"><span class="counter-value" data-target="197">0</span></h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                        <div class="col">
-                            <div class="mt-3 mt-md-0 py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Annual Profit <i class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-exchange-dollar-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0">$<span class="counter-value" data-target="489.4">0</span>k</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                        <div class="col">
-                            <div class="mt-3 mt-md-0 py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Lead Coversation <i class="ri-arrow-down-circle-line text-danger fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-pulse-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0"><span class="counter-value" data-target="32.89">0</span>%</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                        <div class="col">
-                            <div class="mt-3 mt-lg-0 py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Daily Average Income <i class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-trophy-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0">$<span class="counter-value" data-target="1596.5">0</span></h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                        <div class="col">
-                            <div class="mt-3 mt-lg-0 py-4 px-3">
-                                <h5 class="text-muted text-uppercase fs-13">Annual Deals <i class="ri-arrow-down-circle-line text-danger fs-18 float-end align-middle"></i></h5>
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0">
-                                        <i class="ri-service-line display-6 text-muted"></i>
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <h2 class="mb-0"><span class="counter-value" data-target="2659">0</span></h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- end col -->
-                    </div><!-- end row -->
-                </div><!-- end card body -->
-            </div><!-- end card -->
-        </div><!-- end col -->
-    </div><!-- end row -->
-@endsection
+                <a class="nav-link ff-secondary mb-3" style="cursor: pointer">
+                    <i class="mdi mdi-check-decagram mdi-24px text-success"></i><span class="h4"> Languages and Tools</span>
+                </a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">PHP</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">C#</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">Javascript</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">Laravel</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">.Net Framework</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">Node Js</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">React Js</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">Vue Js</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">Jquery</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">Ajax</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">Microsoft SQL Server</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">MySql</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">MongoDb</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">HTML & CSS</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">Git</a>
+
+                <a href="javascript:void(0);" class="mt-5 btn btn-primary btn-label rounded-pill waves-effect waves-light"><i class="ri-download-cloud-line label-icon align-middle rounded-pill fs-20 me-2"></i> Download CV</a>
+            </div>
+            
+        </div>
+        <!-- end col -->
+    </div>
+    <!-- end row -->
+</div>
+<!-- end container -->

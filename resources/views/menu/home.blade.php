@@ -5,7 +5,6 @@
                 <h3 class="text-success"><strong>Hello I'm</strong></h3>
                 <h1 class="mb-2">Daniar Nur Amin</h1>
                 <h4 class="mb-3">Software Developer</h4>
-                {{-- <p class="mb-4 ff-secondary">👋 Hi, My full name Daniar Nur Amin, you can call me "Daniar". I'm Software Developer who specialized in Fullstack Developer from Indonesia. I have experience in developing applications, especially Web Developers</p> --}}
                 <a class="nav-link ff-secondary" style="cursor: pointer">
                     <i class="mdi mdi-email mdi-24px text-success"></i><span> daniarnuramin1@gmail.com</span>
                 </a>
@@ -22,7 +21,7 @@
             </div>
         </div>
         <!-- end col -->
-        <div class="col-lg-6 col-sm-7 col-10 ms-auto order-1 order-lg-2 text-center">
+        <div class="col-lg-6 col-sm-7 col-10 ms-auto order-1 order-lg-2 text-center mb-5">
             <div>
                 <img class="img-thumbnail rounded-circle avatar-xl" src="{{asset('assets/images/me.jpg')}}" style="width: 50%; height:auto;">
             </div>
