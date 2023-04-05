@@ -200,6 +200,25 @@
                 </h5>
                 <p class="text-muted">I studied for 4 years at the "Universitas Komputer Indonesia" majoring in Informatics Engineering, and when I was in college I actively participated in organizational activities. i passed with grades 3,59.</p>
                 <p class="mb-2">
+                    Campus Organization :
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="ri-checkbox-circle-fill text-success"></i>
+                        </div>
+                        <div class="flex-grow-1 ms-2 fs-14">
+                            <p class="text-muted mb-0">Students Majoring in Informaics Engineering as <strong>Vice President</strong>, 2017-2018.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="ri-checkbox-circle-fill text-success"></i>
+                        </div>
+                        <div class="flex-grow-1 ms-2 fs-14">
+                            <p class="text-muted mb-0">Student Executive Board as <strong>Minister of State Secretary</strong>, 2018-2019.</p>
+                        </div>
+                    </div>
+                </p>
+                <p class="mb-2">
                     I'm Learn :
                     <div class="hstack gap-2">
                         <span class="badge badge-soft-primary">Algoritma</span>
@@ -231,6 +250,25 @@
                     <i class="ri-award-fill align-bottom me-1"></i> SMKN 1 GANTAR, 2012-2015
                 </h5>
                 <p class="text-muted">I studied for 3 years at the "SMKN 1 GANTAR". This is where I first learned about programming languages.</p>
+                <p class="mb-2">
+                    School Organization :
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="ri-checkbox-circle-fill text-success"></i>
+                        </div>
+                        <div class="flex-grow-1 ms-2 fs-14">
+                            <p class="text-muted mb-0">OSIS as <strong>Staff</strong>, 2012-2014.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="ri-checkbox-circle-fill text-success"></i>
+                        </div>
+                        <div class="flex-grow-1 ms-2 fs-14">
+                            <p class="text-muted mb-0">PMR as <strong>President</strong>, 2013-2014.</p>
+                        </div>
+                    </div>
+                </p>
                 <p class="mb-2">
                     I'm Learn :
                     <div class="hstack gap-2">

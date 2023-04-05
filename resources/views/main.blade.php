@@ -1196,6 +1196,9 @@
     <!--Swiper slider js-->
     <script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
 
+    <!-- swiper.init js -->
+    <script src="{{asset('assets/js/pages/swiper.init.js')}}"></script>
+
     <script src="{{asset('assets/js/pages/timeline.init.js')}}"></script>
 
     <!-- prismjs plugin -->
