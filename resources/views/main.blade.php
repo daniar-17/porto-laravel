@@ -50,7 +50,7 @@
                             <a class="nav-link fs-14" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-14" href="#features">Features</a>
+                            <a class="nav-link fs-14" href="#experiences">Experiences</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fs-14" href="#plans">Plans</a>
@@ -82,54 +82,11 @@
         <section class="section" id="about">
             @include('menu.about')
         </section>
-        <!-- end services -->
+        <!-- end about -->
 
-        <!-- start features -->
-        <section class="section bg-light py-5" id="features">
-            <div class="container">
-                <div class="row align-items-center gy-4">
-                    <div class="col-lg-6 col-sm-7 mx-auto">
-                        <div>
-                            <img src="assets/images/landing/features/img-1.png" alt="" class="img-fluid mx-auto">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="text-muted">
-                            <div class="avatar-sm icon-effect mb-4">
-                                <div class="avatar-title bg-transparent rounded-circle text-success h1">
-                                    <i class="ri-collage-line fs-36"></i>
-                                </div>
-                            </div>
-                            <h3 class="mb-3 fs-20">Huge collection of widgets</h3>
-                            <p class="mb-4 ff-secondary fs-16">Collection widgets specialize in displaying many elements of the same type, such as a collection of pictures from a collection of articles from a news app or a collection of messages from a communication app.</p>
-
-                            <div class="row pt-3">
-                                <div class="col-3">
-                                    <div class="text-center">
-                                        <h4>5</h4>
-                                        <p>Dashboards</p>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="text-center">
-                                        <h4>150+</h4>
-                                        <p>Pages</p>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="text-center">
-                                        <h4>7+</h4>
-                                        <p>Functional Apps</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
+        <!-- start experiences -->
+        <section class="section bg-light py-5" id="experiences">
+            @include('menu.experience')
         </section>
         <!-- end features -->
 
@@ -1412,8 +1369,23 @@
     <!--Swiper slider js-->
     <script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
 
+    <script src="{{asset('assets/js/pages/timeline.init.js')}}"></script>
+
+    <!-- prismjs plugin -->
+    <script src="{{asset('assets/libs/prismjs/prism.js')}}"></script>
+
+    <!-- prismjs plugin -->
+    <script src="{{asset('assets/libs/prismjs/prism.js')}}"></script>
+
+    <!-- App js -->
+    <script src="{{asset('assets/js/app.js')}}"></script>
+
+    <!-- Modal Js -->
+    <script src="{{asset('assets/js/pages/modal.init.js')}}"></script>
+
     <!-- landing init -->
     <script src="{{asset('assets/js/pages/landing.init.js')}}"></script>
+    
 </body>
 
 </html>
