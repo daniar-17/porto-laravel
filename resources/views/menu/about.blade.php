@@ -2,7 +2,7 @@
     <div class="row justify-content-center">
         <div class="col-lg-8">
             <div class="text-center mb-5">
-                <h1 class="mb-3 ff-secondary fw-semibold lh-base">About Me</h1>
+                <h1 class="mb-3 ff-secondary fw-semibold lh-base">About <span class="text-primary">Me</span></h1>
             </div>
         </div>
         <!-- end col -->
