@@ -13,9 +13,9 @@
                 </a>
                 <div class="row">
                     <div class="hstack gap-2 ">
-                        <a href="https://www.linkedin.com/in/daniar-nur-amin/" class="btn btn-soft-success btn-icon"><i class="ri-linkedin-box-fill ri-xl text-primary"></i></a>
+                        <a href="https://www.linkedin.com/in/daniar-nur-amin/" target="_blank" class="btn btn-soft-success btn-icon"><i class="ri-linkedin-box-fill ri-xl text-primary"></i></a>
                         <a href="https://github.com/daniar-17" target="_blank" class="btn btn-soft-success btn-icon"><i class="ri-github-fill ri-xl text-primary"></i></a>
-                        <a href="https://www.instagram.com/daniar_nur_amin/" class="btn btn-soft-success btn-icon"><i class="ri-instagram-line ri-xl text-primary"></i></a>
+                        <a href="https://www.instagram.com/daniar_nur_amin/" target="_blank" class="btn btn-soft-success btn-icon"><i class="ri-instagram-line ri-xl text-primary"></i></a>
                     </div>
                 </div>
             </div>
