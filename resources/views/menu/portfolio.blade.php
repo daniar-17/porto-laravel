@@ -72,6 +72,27 @@
                 </div>
             </div>
         </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <img src="{{asset('assets/images/financial/Cek_Terima.jpg')}}" alt="" class="img-fluid rounded" />
+                </div>
+                <div class="card-body">
+                    <ul class="list-inline fs-14 text-muted">
+                        <li class="list-inline-item">
+                            <i class="ri-checkbox-circle-line align-bottom me-1"></i> PHP, Laravel & MySQL
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0);">
+                        <h5>Financial Information System</h5>
+                    </a>
+                    <p class="text-muted fs-14">This is a web application about Financial Information System.</p>
+                    <div>
+                        <a href="javascript:void(0);" class="link-success" data-bs-toggle="modal" data-bs-target=".financial">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -272,7 +293,6 @@
                                 <span class="badge badge-soft-primary">Laravel</span>
                                 <span class="badge badge-soft-primary">MySql</span>
                                 <span class="badge badge-soft-primary">JQuery</span>
-                                <span class="badge badge-soft-primary">Ajax</span>
                             </div>
                         </p>
                     </div>
@@ -400,6 +420,109 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="{{asset('assets/images/article/06_artikel.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next bg-white shadow"></div>
+                                    <div class="swiper-button-prev bg-white shadow"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade financial" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myExtraLargeModalLabel"><i class="ri-award-fill align-bottom me-1 text-primary"></i> Financial Information System</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p class="fs-14 text-muted">
+                            This is a web application about Financial Information System. This application is made for the needs of a <strong>Freelance Web</strong>, this application has features : 
+                        </p>
+                        <hr class="text-muted">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0">Create and Read Data <strong>Financial Submission with File PDF Financial Submission and Multiple Row.</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2">
+                                <p class="text-muted mb-0 fs-14">Create, Read, Update and Delete <strong>Financial Income and Expenses.</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2">
+                                <p class="text-muted mb-0 fs-14"><strong>Dashboard with total Financial Income, Expenses and Submission</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2">
+                                <p class="text-muted mb-0 fs-14"><strong>Role Head Office and Treasurer</strong>, Treasurer job is create Financial Submission. And Head Office job is Approvment Financial Submission.</p>
+                            </div>
+                        </div>
+                        <p class="mb-2">
+                            <span class="text-primary">Languages and Tools :</span> 
+                            <div class="hstack gap-2 mb-2">
+                                <span class="badge badge-soft-primary">PHP</span>
+                                <span class="badge badge-soft-primary">Laravel</span>
+                                <span class="badge badge-soft-primary">MySql</span>
+                                <span class="badge badge-soft-primary">JQuery</span>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card bg-soft-dark">
+                            <div class="card-body">
+                                <!-- Swiper -->
+                                <div class="swiper navigation-swiper rounded">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/financial/02_Dashboard.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/financial/01_Data_Pengajuan.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/financial/03_Tambah_Pengajuan.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/financial/Cek_Terima.jpg')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/financial/Cek_Tolak.jpg')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/financial/Detail_Terima.jpg')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/financial/Detail_Tolak.jpg')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/financial/05_login.png')}}" alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-button-next bg-white shadow"></div>
