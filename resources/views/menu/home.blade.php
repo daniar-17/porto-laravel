@@ -6,16 +6,16 @@
                 <h1 class="mb-2">Daniar Nur Amin</h1>
                 <h4 class="mb-3">Software Developer</h4>
                 <a class="nav-link ff-secondary" style="cursor: pointer">
-                    <i class="mdi mdi-email mdi-24px text-success"></i><span> daniarnuramin1@gmail.com</span>
+                    <i class="mdi mdi-email-outline mdi-24px text-dark"></i><span class="fs-18"> daniarnuramin1@gmail.com</span>
                 </a>
                 <a class="nav-link ff-secondary mb-3" style="cursor: pointer">
-                    <i class="mdi mdi-phone mdi-24px text-success"></i><span> 0812-9309-8150</span>
+                    <i class="mdi mdi-whatsapp mdi-24px text-dark"></i><span class="fs-17"> 0812-9309-8150</span>
                 </a>
                 <div class="row">
                     <div class="hstack gap-2 ">
-                        <a href="https://www.linkedin.com/in/daniar-nur-amin/" target="_blank" class="btn btn-soft-success btn-icon"><i class="ri-linkedin-box-fill ri-xl text-primary"></i></a>
-                        <a href="https://github.com/daniar-17" target="_blank" class="btn btn-soft-success btn-icon"><i class="ri-github-fill ri-xl text-primary"></i></a>
-                        <a href="https://www.instagram.com/daniar_nur_amin/" target="_blank" class="btn btn-soft-success btn-icon"><i class="ri-instagram-line ri-xl text-primary"></i></a>
+                        <a href="https://www.linkedin.com/in/daniar-nur-amin/" target="_blank" class="btn btn-dark btn-icon"><i class="ri-linkedin-box-fill ri-xl text-white"></i></a>
+                        <a href="https://github.com/daniar-17" target="_blank" class="btn btn-dark btn-icon"><i class="ri-github-fill ri-xl text-white"></i></a>
+                        <a href="https://www.instagram.com/daniar_nur_amin/" target="_blank" class="btn btn-dark     btn-icon"><i class="ri-instagram-line ri-xl text-white"></i></a>
                     </div>
                 </div>
             </div>

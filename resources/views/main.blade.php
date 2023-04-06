@@ -32,36 +32,7 @@
     <!-- Begin page -->
     <div class="layout-wrapper landing">
         <nav class="navbar navbar-expand-lg navbar-landing fixed-top" id="navbar">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/logo-dark.png" class="card-logo card-logo-dark" alt="logo dark" height="17">
-                    <img src="assets/images/logo-light.png" class="card-logo card-logo-light" alt="logo light" height="17">
-                </a>
-                <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="mdi mdi-menu"></i>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
-                        <li class="nav-item">
-                            <a class="nav-link fs-14 active" href="#hero">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-14" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-14" href="#experiences">Experiences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-14" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-14" href="#certificate">Certificate</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
+            @include('layouts.navbar')
         </nav>
         <!-- end navbar -->
         <div class="vertical-overlay" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent.show"></div>
@@ -89,6 +60,12 @@
             @include('menu.portfolio')
         </section>
         <!-- end portfolio -->
+
+        <!-- start certificate -->
+        <section class="section bg-light" id="certificate">
+            @include('menu.certificate')
+        </section>
+        <!-- end certificate -->
 
         <!-- Start footer -->
         <footer class="custom-footer bg-dark py-5 position-relative">

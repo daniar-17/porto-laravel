@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div>
-                            <a href="javascript:void(0);" class="btn btn-soft-primary waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#eduKuliah"> View</a>
+                            <a href="javascript:void(0);" class="btn btn-soft-primary waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#eduKuliah"> <strong>View</strong></a>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                         <div>
-                            <a href="javascript:void(0);" class="btn btn-soft-success waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#work1"> View</a>
+                            <a href="javascript:void(0);" class="btn btn-soft-success waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#work1"> <strong>View</strong></a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                         <div>
-                            <a href="javascript:void(0);" class="btn btn-soft-warning waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#eduSMK"> View</a>
+                            <a href="javascript:void(0);" class="btn btn-soft-warning waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#eduSMK"> <strong>View</strong></a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                             </div>
                         </div>
                         <div>
-                            <a href="javascript:void(0);" class="btn btn-soft-secondary  waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#work2"> View</a>
+                            <a href="javascript:void(0);" class="btn btn-soft-secondary  waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#work2"> <strong>View</strong></a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                             </div>
                         </div>
                         <div>
-                            <a href="javascript:void(0);" class="btn btn-soft-dark  waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#work3"> View</a>
+                            <a href="javascript:void(0);" class="btn btn-soft-dark  waves-effect waves-light shadow-none" data-bs-toggle="modal" data-bs-target="#work3"> <strong>View</strong></a>
                         </div>
                     </div>
                 </div>
