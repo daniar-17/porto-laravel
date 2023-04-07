@@ -161,6 +161,48 @@
                 </div>
             </div>
         </div>
+        <div class="col-lg-4 col-md-6 product-item nodejs reactjs">
+            <div class="card explore-box card-animate">
+                <div class="card-body">
+                    <img src="{{asset('assets/images/cosmetic_app/02_about.png')}}" alt="" class="img-fluid rounded" />
+                </div>
+                <div class="card-body">
+                    <ul class="list-inline fs-14 text-muted">
+                        <li class="list-inline-item">
+                            <i class="ri-checkbox-circle-line align-bottom me-1"></i>Node Js & React Js
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0);">
+                        <h5>Cosmetic App</h5>
+                    </a>
+                    <p class="text-muted fs-14">This is a web application about Landing Page Cosmetic App.</p>
+                    <div>
+                        <a href="javascript:void(0);" class="link-success" data-bs-toggle="modal" data-bs-target=".cosmetic-app">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 product-item vuejs laravel">
+            <div class="card explore-box card-animate">
+                <div class="card-body">
+                    <img src="{{asset('assets/images/simple_crud_blogs/01_data.png')}}" alt="" class="img-fluid rounded" />
+                </div>
+                <div class="card-body">
+                    <ul class="list-inline fs-14 text-muted">
+                        <li class="list-inline-item">
+                            <i class="ri-checkbox-circle-line align-bottom me-1"></i>Laravel, Vue Js & Inertia Js
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0);">
+                        <h5>Simple CRUD - Blogs</h5>
+                    </a>
+                    <p class="text-muted fs-14">This is a web application about Simple CRUD - Blogs.</p>
+                    <div>
+                        <a href="javascript:void(0);" class="link-success" data-bs-toggle="modal" data-bs-target=".simple-crud-blogs">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -838,6 +880,176 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="{{asset('assets/images/event/04_order_postman.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next bg-white shadow"></div>
+                                    <div class="swiper-button-prev bg-white shadow"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade cosmetic-app" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myExtraLargeModalLabel"><i class="ri-award-fill align-bottom me-1 text-primary"></i> Cosmetic App</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p class="fs-14 text-muted">
+                            This is a web application Landing Page about Cosmetic App "Sabun Giv". This application is made for the needs of a technical test, this application has features : 
+                        </p>
+                        <hr class="text-muted">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0">Landing Page Web Application with React JS.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0">Menu in Web Application Home, About, Services, Gallery, Testimonial and Contact.</p>
+                            </div>
+                        </div>
+                        <p class="mb-2">
+                            <span class="text-primary">Languages and Tools :</span> 
+                            <div class="hstack gap-2 mb-2">
+                                <span class="badge badge-soft-primary">Javascript</span>
+                                <span class="badge badge-soft-primary">Node Js</span>
+                                <span class="badge badge-soft-primary">React Js</span>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card bg-soft-dark">
+                            <div class="card-body">
+                                <!-- Swiper -->
+                                <div class="swiper pagination-fraction-swiper rounded">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/cosmetic_app/01_home.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/cosmetic_app/02_about.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/cosmetic_app/03_service.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/cosmetic_app/03_service2.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/cosmetic_app/04_gallery.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/cosmetic_app/05_testimoni.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/cosmetic_app/06_contact.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="swiper-button-next bg-white shadow"></div>
+                                    <div class="swiper-button-prev bg-white shadow"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade simple-crud-blogs" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myExtraLargeModalLabel"><i class="ri-award-fill align-bottom me-1 text-primary"></i> Simple CRUD - Blogs</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p class="fs-14 text-muted">
+                            This is a web application Simple CRUD - Blogs with Laravel, Vue Js and Inertia Js. This application is made for self learning, this application has features : 
+                        </p>
+                        <hr class="text-muted">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0">Create, Read, Update and Delete Data Blogs.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0">Feature authentication with <strong>Laravel Breeze.</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0">Frontend with Vue Js.</p>
+                            </div>
+                        </div>
+                        <p class="mb-2">
+                            <span class="text-primary">Languages and Tools :</span> 
+                            <div class="hstack gap-2 mb-2">
+                                <span class="badge badge-soft-primary">Laravel</span>
+                                <span class="badge badge-soft-primary">Vue Js</span>
+                                <span class="badge badge-soft-primary">Inertia Js</span>
+                                <span class="badge badge-soft-primary">Laravel Breeze</span>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card bg-soft-dark">
+                            <div class="card-body">
+                                <!-- Swiper -->
+                                <div class="swiper pagination-fraction-swiper rounded">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_blogs/01_data.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_blogs/02_add.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_blogs/03_edit.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_blogs/04_delete.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_blogs/04_delete2.png')}}" alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-button-next bg-white shadow"></div>

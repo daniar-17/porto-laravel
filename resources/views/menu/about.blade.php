@@ -36,11 +36,11 @@
                 <a href="javascript:void(0);" class="badge badge-soft-primary">Microsoft SQL Server</a>
                 <a href="javascript:void(0);" class="badge badge-soft-primary">MySql</a>
                 <a href="javascript:void(0);" class="badge badge-soft-primary">MongoDb</a>
-                <a href="javascript:void(0);" class="badge badge-soft-primary">HTML & CSS</a>
                 <a href="javascript:void(0);" class="badge badge-soft-primary">Git</a>
-                <a href="javascript:void(0);" class="badge badge-soft-primary">PostMan</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">Html & Css</a>
+                <a href="javascript:void(0);" class="badge badge-soft-primary">PostMan</a> <br>
 
-                <a href="javascript:void(0);" class="mt-5 btn btn-primary btn-label rounded-pill waves-effect waves-light"><i class="ri-download-cloud-line label-icon align-middle rounded-pill fs-20 me-2"></i> Download CV</a>
+                <a href="javascript:void(0);" class="mt-3 btn btn-primary btn-label rounded-pill waves-effect waves-light"><i class="ri-download-cloud-line label-icon align-middle rounded-pill fs-20 me-2"></i> Download CV</a>
             </div>
             
         </div>
