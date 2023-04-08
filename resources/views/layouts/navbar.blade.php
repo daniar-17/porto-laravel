@@ -1,7 +1,4 @@
 <div class="container">
-    <a class="navbar-brand" href="javascript:void(0);">
-        <img src="assets/images/logo-dark.png" class="card-logo card-logo-dark" alt="logo dark" height="17">
-    </a>
     <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="mdi mdi-menu"></i>
     </button>

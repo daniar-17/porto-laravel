@@ -3,7 +3,7 @@
         <div class="col-lg-4 mt-4">
             <div>
                 <div>
-                    <img src="assets/images/logo-light.png" alt="logo light" height="17">
+                    <h5 class="text-white mb-0">My Portfolio</h5>
                 </div>
                 <div class="mt-4 fs-13">
                     <p>Hii, This is My Web Profile ~~</p>

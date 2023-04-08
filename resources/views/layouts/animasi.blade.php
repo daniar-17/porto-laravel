@@ -1,10 +1,10 @@
 <style>
     :root {
     --gray: #2c3333;
-    --balck: #000000;
+    --balck: #EEEEEE;
     --white: #ffffff;
     --green: #4DB6AC;
-    --truck: #2e4f4f;
+    --truck: #2C3639;
     }
 
     .loop-wrapper {
@@ -85,8 +85,8 @@
     position: absolute;
     width: 25px;
     box-shadow:
-        -30px 28px 0 1.5px #fff,
-        -35px 18px 0 1.5px #fff;
+        -30px 28px 0 1.5px var(--white),
+        -35px 18px 0 1.5px var(--white);
     }
     .wheels {
         background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/wheels.svg) no-repeat;

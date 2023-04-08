@@ -26,7 +26,7 @@
         <div class="vertical-overlay" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent.show"></div>
 
         <!-- start hero section -->
-        <section class="section pb-0 hero-section" id="hero">
+        <section class="section pb-0 hero-section" id="hero" style="background: #3A4750">
             @include('menu.home')
         </section>
         <!-- end hero section -->

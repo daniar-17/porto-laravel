@@ -2,14 +2,14 @@
     <div class="row align-items-center gy-4">
         <div class="col-lg-6">
             <div class="text-muted">
-                <h3 class="text-success"><strong>Hello I'm</strong></h3>
-                <h1 class="mb-2">Daniar Nur Amin</h1>
-                <h4 class="mb-3">Software Developer</h4>
+                <h3 class="text-success"><strong><i class="mdi mdi-camera-iris mdi-24px text-success"></i> Hello I'm</strong></h3>
+                <h1 class="mb-2" style="color: #F9F7F7">Daniar Nur Amin</h1>
+                <h4 class="mb-3" style="color: #DBE2EF">Software Developer</h4>
                 <a class="nav-link ff-secondary" style="cursor: pointer">
-                    <i class="mdi mdi-email-outline mdi-24px text-dark"></i><span class="fs-18"> daniarnuramin1@gmail.com</span>
+                    <i class="mdi mdi-email-outline mdi-24px"></i><span class="fs-18"> daniarnuramin1@gmail.com</span>
                 </a>
                 <a class="nav-link ff-secondary mb-3" style="cursor: pointer">
-                    <i class="mdi mdi-whatsapp mdi-24px text-dark"></i><span class="fs-17"> 0812-9309-8150</span>
+                    <i class="mdi mdi-whatsapp mdi-24px"></i><span class="fs-17"> 0812-9309-8150</span>
                 </a>
                 <div class="row">
                     <div class="hstack gap-2 ">
