@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row align-items-center gy-4">
-        <div class="col-lg-6 order-2 order-lg-1">
+        <div class="col-lg-6">
             <div class="text-muted">
                 <h3 class="text-success"><strong>Hello I'm</strong></h3>
                 <h1 class="mb-2">Daniar Nur Amin</h1>
@@ -20,10 +20,20 @@
                 </div>
             </div>
         </div>
+        
         <!-- end col -->
         <div class="col-lg-6 col-sm-7 col-10 ms-auto order-1 order-lg-2 text-center mb-5">
             <div>
-                <img class="img-thumbnail rounded-circle avatar-xl" src="{{asset('assets/images/me.jpg')}}" style="width: 50%; height:auto;">
+                <div class="loop-wrapper">
+                    <div class="mountain"></div>
+                    <div class="hill"></div>
+                    <div class="tree"></div>
+                    <div class="tree"></div>
+                    <div class="tree"></div>
+                    <div class="rock"></div>
+                    <div class="truck"></div>
+                    <div class="wheels"></div>
+                </div> 
             </div>
         </div>
     </div>
