@@ -1283,6 +1283,14 @@
                             <div class="flex-shrink-0">
                                 <i class="ri-checkbox-circle-fill text-primary"></i>
                             </div>
+                            <div class="flex-grow-1 ms-2">
+                                <p class="text-muted mb-0 fs-14">You can add data with <strong>Multiple Row in Menu Anggota.</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
                             <div class="flex-grow-1 ms-2 fs-14">
                                 <p class="text-muted mb-0">Nuget Install Microsoft : EntityFrameworkCore, EntityFrameworkCore.SqlServer, EntityFrameworkCore.Tools, AspNetCore.Mvc.Razor.RuntimeCompilation.</p>
                             </div>
@@ -1320,6 +1328,18 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="{{asset('assets/images/library_core/05_code.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/library_core/01_addmultiple.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/library_core/01_addmultiple2.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/library_core/01_addmultiple3.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/library_core/01_addmultiple4.png')}}" alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-button-next bg-white shadow"></div>
