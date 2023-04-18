@@ -269,7 +269,6 @@
     </div>
 </div>
 
-{{-- Modals --}}
 <!--  Extra Large modal example -->
 <div class="modal fade bs-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
@@ -1291,6 +1290,14 @@
                             <div class="flex-shrink-0">
                                 <i class="ri-checkbox-circle-fill text-primary"></i>
                             </div>
+                            <div class="flex-grow-1 ms-2">
+                                <p class="text-muted mb-0 fs-14">You can add data with <strong>Import Excel (Upload).</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
                             <div class="flex-grow-1 ms-2 fs-14">
                                 <p class="text-muted mb-0">Nuget Install Microsoft : EntityFrameworkCore, EntityFrameworkCore.SqlServer, EntityFrameworkCore.Tools, AspNetCore.Mvc.Razor.RuntimeCompilation.</p>
                             </div>
@@ -1340,6 +1347,15 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="{{asset('assets/images/library_core/01_addmultiple4.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/library_core/02_upload.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/library_core/03_excel.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/library_core/04_hasil.png')}}" alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-button-next bg-white shadow"></div>
