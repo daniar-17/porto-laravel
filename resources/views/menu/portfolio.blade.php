@@ -337,6 +337,14 @@
                                 <i class="ri-checkbox-circle-fill text-primary"></i>
                             </div>
                             <div class="flex-grow-1 ms-2">
+                                <p class="text-muted mb-0 fs-14">Send Email with <strong>Attachment File.</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2">
                                 <p class="text-muted mb-0 fs-14"><strong>Show Data With Charts.</strong></p>
                             </div>
                         </div>
@@ -389,6 +397,15 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="{{asset('assets/images/customer_app/01_remove.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/customer_app/01_add_import.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/customer_app/01_sendmail_data.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/customer_app/01_attachment_mail.png')}}" alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-button-next bg-white shadow"></div>
