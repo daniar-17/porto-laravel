@@ -1445,6 +1445,14 @@
                                 <p class="text-muted mb-0"><strong>Handle Api with Guzzlehttp/Guzzle.</strong></p>
                             </div>
                         </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0">Generate <strong>File Pdf and Send Email according to Input</strong></p>
+                            </div>
+                        </div>
                         <p class="mb-2">
                             <span class="text-primary">Languages and Tools :</span> 
                             <div class="hstack gap-2 mb-2">
@@ -1456,6 +1464,7 @@
                             </div>
                             <div class="hstack gap-2 mb-2">
                                 <span class="badge badge-soft-primary">Laravel/Socialite</span>
+                                <span class="badge badge-soft-primary">Generete PDF</span>
                             </div>
                         </p>
                     </div>
@@ -1485,6 +1494,15 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="{{asset('assets/images/login_with_google/07_cek_ongkir.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/login_with_google/01_generate_pdf_01.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/login_with_google/p1_generate_multi2.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/login_with_google/01_generate_multi.jpeg')}}" alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-button-next bg-white shadow"></div>
