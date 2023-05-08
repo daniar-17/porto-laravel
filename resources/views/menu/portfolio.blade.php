@@ -266,6 +266,27 @@
                 </div>
             </div>
         </div>
+        <div class="col-lg-4 col-md-6 product-item reactjs laravel">
+            <div class="card explore-box card-animate">
+                <div class="card-body">
+                    <img src="{{asset('assets/images/simple_crud_posts/02_list.png')}}" alt="" class="img-fluid rounded" />
+                </div>
+                <div class="card-body">
+                    <ul class="list-inline fs-14 text-muted">
+                        <li class="list-inline-item">
+                            <i class="ri-checkbox-circle-line align-bottom me-1"></i>Laravel & React Js
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0);">
+                        <h5>Simple CRUD - Posts</h5>
+                    </a>
+                    <p class="text-muted fs-14">This is a web application about Simple CRUD - Posts.</p>
+                    <div>
+                        <a href="javascript:void(0);" class="link-success" data-bs-toggle="modal" data-bs-target=".simple-crud-posts">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -1503,6 +1524,113 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="{{asset('assets/images/login_with_google/01_generate_multi.jpeg')}}" alt="" class="img-fluid" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next bg-white shadow"></div>
+                                    <div class="swiper-button-prev bg-white shadow"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade simple-crud-posts" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myExtraLargeModalLabel"><i class="ri-award-fill align-bottom me-1 text-primary"></i> Simple CRUD - Posts</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p class="fs-14 text-muted">
+                            This is a web application Simple CRUD - Posts with Laravel & React Js. This application is made for self learning, this application has features : 
+                        </p>
+                        <hr class="text-muted">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0">Create, Read, Update and Delete Data Posts.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0">Feature authentication with <strong>Laravel Sanctum.</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0"><strong>Frontend with React Js.</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0"><strong>Backend with Laravel to Send API to Front End.</strong></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-2 mb-2">
+                            <div class="flex-shrink-0">
+                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-2 fs-14">
+                                <p class="text-muted mb-0"><strong>With Local Storage to Save Temporary Token.</strong></p>
+                            </div>
+                        </div>
+                        <p class="mb-2">
+                            <span class="text-primary">Languages and Tools :</span> 
+                            <div class="hstack gap-2 mb-2">
+                                <span class="badge badge-soft-primary">Laravel</span>
+                                <span class="badge badge-soft-primary">React Js</span>
+                                <span class="badge badge-soft-primary">Laravel Sanctum</span>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card bg-soft-dark">
+                            <div class="card-body">
+                                <!-- Swiper -->
+                                <div class="swiper pagination-fraction-swiper rounded">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_posts/01_login.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_posts/01_login_success.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_posts/01_login_failed.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_posts/02_list.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_posts/03_add.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_posts/04_update.png')}}" alt="" class="img-fluid" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="{{asset('assets/images/simple_crud_posts/05_delete.png')}}" alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-button-next bg-white shadow"></div>
